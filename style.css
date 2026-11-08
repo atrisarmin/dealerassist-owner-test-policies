@@ -1,0 +1,25 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #1f2937; background: #f5f7fa; font-size: 16px; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.notice { background: #fff4df; border-bottom: 1px solid #efcf93; color: #6f4300; font-size: .875rem; line-height: 1.5; padding: .8rem 1.25rem; text-align: center; }
+header { max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem 0; }
+.brand { color: #314965; font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
+main { max-width: 760px; padding: 2.5rem 1.25rem 4rem; margin: 0 auto; }
+.card { background: #fff; border: 1px solid #dce4ed; border-radius: 18px; box-shadow: 0 8px 26px #20314d0a; padding: clamp(1.5rem, 5vw, 3.25rem); }
+.eyebrow { color: #496c91; font-size: .8rem; font-weight: 700; letter-spacing: .08em; margin: 0 0 .75rem; text-transform: uppercase; }
+h1 { color: #162536; font-size: clamp(2rem, 5vw, 2.8rem); letter-spacing: -.035em; line-height: 1.1; margin: 0 0 1rem; }
+h2 { color: #1b2d40; font-size: 1.1rem; margin: 2rem 0 .5rem; }
+p, li { line-height: 1.7; }
+p { margin: .5rem 0 1rem; }
+.muted { color: #5f6f81; }
+.placeholder { color: #8b3650; font-weight: 650; }
+a { color: #235b98; }
+a:focus-visible { outline: 3px solid #78aee8; outline-offset: 3px; }
+.links { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
+.link-card { background: #f5f8fc; border: 1px solid #d8e5f1; border-radius: 10px; color: #214d7a; display: inline-block; padding: .75rem 1rem; text-decoration: none; }
+.link-card:hover { background: #ebf2fa; }
+.evidence-images { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1.5rem; margin: 1.75rem 0; }
+.evidence-images figure { margin: 0; }
+.evidence-images img { display: block; width: 100%; height: auto; border: 1px solid #dce4ed; border-radius: 12px; }
+.evidence-images figcaption { color: #5f6f81; font-size: .875rem; line-height: 1.5; margin-top: .6rem; }
+footer { color: #6b7887; font-size: .85rem; margin-top: 1.5rem; text-align: center; }
